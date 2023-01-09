@@ -1,0 +1,59 @@
+footer a{
+    color: #fafafa;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #cdcdcd;
+}
+
+footer ul{
+    list-style: none;
+    padding-left:0;
+}
+
+
+.bg-custom{
+    background-color: #003612;
+}
+
+.carousel-inner{
+    min-height: 557px;
+}
+
+.carousel button{
+    background-color: #bbb5b532;
+}
+
+.carousel button:hover{
+    background-color: #bbb5b5b1;
+}
+
+
+
+
+
+.contact-form label, .contact-form input, .contact-form textarea{
+    display: block;
+    width: 100%;
+}
+
+.contact-form label{
+    margin-bottom: 0.5em;
+}
+
+.contact-form input, .contact-form textarea{
+    border: 1px solid #003612;
+    font-family: inherit;
+    font-size: 1em;
+    padding: .5em;
+}
+
+.invalid {
+    border-color: red !important;
+    color: red;
+}
+
+.invalid::placeholder{
+    color: red;
+}
